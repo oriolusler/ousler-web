@@ -1,0 +1,31 @@
+
+.social {
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  z-index: 2000;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social ul li a {
+  display: inline-block;
+  color:#fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+
+.social ul li .icon-linkedin {background:#0d4fbf;}
+.social ul li .icon-twitter {background: #1c87eb;}
+.social ul li .icon-github {background: #121111;}
+
+.social ul li a:hover {
+  background: #7d7c7c;
+  padding: 10px 30px;
+}
